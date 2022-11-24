@@ -1,0 +1,46 @@
+body { font-family: Calibri, sans-serif;  
+    background-color: aquamarine;}
+
+#container { 
+    text-align: center 
+    }
+
+table { 
+    border-collapse: collapse; 
+    font-size: 2em; 
+    margin: 0 auto; 
+    }
+
+colgroup, tbody {
+    border: solid medium; 
+    }
+    
+td {
+    border: solid thin;
+    height: 1.4em; 
+    width: 1.4em; 
+    text-align: center; 
+    padding: 0; 
+    }
+    
+button {
+    margin-top: 15px; 
+    font-size: 1.5em; 
+    border-radius: 8px;
+    background-color: aquamarine;
+    color: black;
+    border: 2px solid black;
+    }
+
+button {
+    transition-duration: 0.4s;
+    }
+      
+button:hover {
+    background-color: #d2dbd2; /* Green */
+    color: rgb(0, 0, 0);
+    }    
+    
+.padd{
+    padding-top: 10vh;
+}
